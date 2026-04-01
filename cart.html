@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaDao Tacos</title>
+    <!--STYLESHEET-->
+    <link href="style.css" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--HEADER-->
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <a href=#><img src="img/Logo_Hmpg.png" class="logo" alt="logo image"></a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!--HOME PAGE-->
+    <section id="page-header" class="contact-header">
+       <h2>#Check out</h2>
+    </section>
+
+    <!--CART PAGE-->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thread>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>PRODUCT</td>
+                    <td>PRODUCT NAME</td>
+                    <td>PRICE</td>
+                    <td>AMOUNT</td>
+                    <td>TOTAL</td>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/taco bò cay.webp"></td>
+                    <td>Tacos Bò Cay</td>
+                    <td>$7.50</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$7.50</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--CART ADD-->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Codes</h3>
+            <div>
+                <input type="text" placeholder="Insert Codes Here">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>CHECK OUT</h3>
+            <table>
+                <tr>
+                    <td>Tổng thu</td>
+                    <td>$7.50</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>Miễn Phí</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng phải trả</strong></td>
+                    <td><strong>7.50</strong></td>
+                </tr>                
+            </table>
+            <button class="normal">Check out</button>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer id="section-p1">
+        <div class="col">
+            <img src="img/Logo_Hmpg.png" alt="logo" class="logo">
+            <h4>Thông tin liên hệ:</h4>
+            <p><strong>Địa chỉ liên hệ:</strong> 37/5 Pasteur Qu.1 TP.HCM</p>
+            <p><strong>SĐT:</strong> +84 9034 8432 34</p>
+            <p><strong>Email:</strong> placeholder@gmail.com</p>
+            <div class="follow">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
